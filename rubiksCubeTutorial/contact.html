@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <meta name="description" content="A website tutorial on solving the Rubik's Cube">
+    <meta name="author" content="Austyn Owens">
+    <link rel="stylesheet" href="stylesheets/style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+      <h1>Solve It! Rubik's Cube Tutorial</h1>
+      </header>
+      <nav>
+        <ul>
+          <li id="button1"><a href="index.html">Stage 1</a></li>
+          <li id="button2"><a href="Stage2.html">Stage 2</a></li>
+          <li id="button3"><a href="Stage3.html">Stage 3</a></li>
+          <li id="button4"><a href="Stage4.html">Stage 4</a></li>
+          <li id="button5"><a href="Stage5.html">Stage 5</a></li>
+          <li id="button6"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <section id="content">
+        <a href="./images/transform.png"><img src="./images/transform.png" alt="Solved Rubik's Cube" id="transform"></a>
+        <p>Questions or comments</p>
+        <form method="post" action="http://webdevbasics.net/scripts/javajam.php">
+          <label for="firstname">*First Name</label>
+          <input required type="text" name="firstname" id="firstname">
+          <label for="lastname">*Last Name</label>
+          <input required type="text" name="lastname" id="lastname">
+          <label for="email">*Email</label>
+          <input required type="text" name="email" id="email">
+          <label for="phone">*Phone</label>
+          <input required type="text" name="phone_number" id="phone">
+          <label for="comment">*Leave a question or comment</label>
+          <textarea required name="comment" id="comment"></textarea>
+          <input type="submit" value="Send" class="button">
+          <input type="reset" class="button">
+        </form>
+        
+        <table border="1">
+          <caption>Solve It! Webmaster</caption>
+          <tr>
+            <th>Name</th>
+            <td>Austyn Owens</td>
+          </tr>
+          <tr>
+            <th>Address</th>
+            <td>123 Original Way<br>Eau Claire, WI 54701</td>
+          </tr>
+          <tr>
+            <th>Phone</th>
+            <td><a id="mobile" href="tel:715-555-5555">715-555-5555</a><span id="desktop">715-555-5555</span></td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td><a href="mailto:austyn.owens1@gmail.com">austyn.owens1@gmail.com</a></td>
+          </tr>
+        </table>
+      </section>      
+      <footer>Copyright &copy; 2015 Austyn Owens<br><a href="mailto:austyn.owens1@gmail.com">austyn.owens1@gmail.com</a>
+      </footer>
+    </div>
+  </body>
+</html>

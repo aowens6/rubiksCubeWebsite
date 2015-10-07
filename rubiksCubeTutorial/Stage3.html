@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Stage Three</title>
+    <meta name="description" content="A website tutorial on solving the Rubik's Cube">
+    <meta name="author" content="Austyn Owens">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+    </script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+      <h1>Solve It! Rubik's Cube Tutorial</h1>
+      </header>
+      <nav>
+        <ul>
+          <li id="button1"><a href="index.html">Stage 1</a></li>
+          <li id="button2"><a href="Stage2.html">Stage 2</a></li>
+          <li id="button3"><a href="Stage3.html">Stage 3</a></li>
+          <li id="button4"><a href="Stage4.html">Stage 4</a></li>
+          <li id="button5"><a href="Stage5.html">Stage 5</a></li>
+          <li id="button6"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <section id="content">
+        <h2>Stage Three: The Second Level</h2>
+        <p>Note: "Edge piece" means a cubit with two colors that are not yellow in this stage</p>
+        <ol>
+          <li>Turn the top level until all the colors on Level One are matched with its middle cubit<a href="./images/3-1.png"><img src="./images/3-1.png" alt="Stage 3 Step 1"></a></li>
+          <li>Orient the cube so that the white face is now the bottom<a href="./images/3-2.png"><img src="./images/3-2.png" alt="Stage 3 Step 2"></a></li>
+          <li>Pick a color and turn it to face you. Find the edge piece with the matching color on the third level and orient it so the colors match and make a vertical line<a href="./images/3-3.png"><img src="./images/3-3.png" alt="Stage 3 Step 3"></a></li>
+        </ol>
+        <p>The next moves depend on the color on the top and whether its matching face is to the left of the vertical line, or to the right. In this case the top color has to replace the edge piece that is  catty-cornered to the right. There is one algorithm, but for simplicity’s sake we’ll break it into Right and Left</p>
+        <p>If the color on top has to go catty-corner to the Right:</p>
+        <ol>
+          <li>Rotate the top to the left<a href="./images/3-4.png"><img src="./images/3-4.png" alt="Stage 3 Step 4"></a><a href="./images/3-5.png"><img src="./images/3-5.png" alt="Stage 3 Step 5"></a></li>
+          <li>Turn up the right side<a href="./images/3-6.png"><img src="./images/3-6.png" alt="Stage 3 Step 6"></a></li>
+          <li>Rotate the top to the left <aside>Hint: the edge piece cubit you started with should be lined up in the column again</aside><a href="./images/3-7.png"><img src="./images/3-7.png" alt="Stage 3 Step 7"></a></li>
+          <li>Right side down<a href="./images/3-8.png"><img src="./images/3-8.png" alt="Stage 3 Step 8"></a></li>
+          <li>Top to the Right<a href="./images/3-9.png"><img src="./images/3-9.png" alt="Stage 3 Step 9"></a></li>
+          <li>Face counterclockwise<a href="./images/3-10.png"><img src="./images/3-10.png" alt="Stage 3 Step 10"></a></li>
+          <li>Top to the left<a href="./images/3-11.png"><img src="./images/3-11.png" alt="Stage 3 Step 11"></a></li>
+          <li>Face clockwise<a href="./images/3-12.png"><img src="./images/3-12.png" alt="Stage 3 Step 12"></a></li>
+        </ol>
+        <p>If the color on the top has to go catty corner to the Left:</p>
+        <ol>
+          <li>Rotate the top to the right</li>
+          <li>Turn up the left side</li>
+          <li>Rotate the top to the right (hint: the cubit should be lined up in the vertical line again)</li>
+          <li>Left side down</li>
+          <li>Top to the left</li>
+          <li>Face clockwise</li>
+          <li>Top to the right</li>
+          <li>Face counterclockwise</li>
+        </ol>
+        <h2>Edge pieces stuck on the second level in the wrong place</h2>
+        <p>Determine which side it's on then follow the corresponding directions above, except skip step one and do steps 2-8.</p>
+        <p>After you correct each edge piece, your cube should look similar to this: <a href="./images/3-13.png"><img src="./images/3-13.png" alt="Stage 3 Step 13"></a></p>
+        <h2 id="video">Video directions</h2>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/j6qR6aVMYmY" allowfullscreen></iframe>
+        <nav>
+        <ul>
+          <li class="bottomlink4"><a href="Stage4.html">On to Stage 4</a></li>
+        </ul>
+      </nav>
+      </section>      
+      <footer>Copyright &copy; 2015 Austyn Owens<br><a href="mailto:austyn.owens1@gmail.com">austyn.owens1@gmail.com</a>
+      </footer>
+    </div>
+  </body>
+</html>
