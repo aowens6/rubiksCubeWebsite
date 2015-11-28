@@ -50,6 +50,12 @@
   display: inline;
 }
 
+.bottomLink{
+    opacity: 0;
+    position: 'relative';
+    left: -600;
+}
+
 .bottomlink2 {
   background-color: #2F9CF5;
   float: right;
